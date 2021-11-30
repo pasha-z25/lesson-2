@@ -1,3 +1,22 @@
-.description {
-  padding: 15px;
+#main-title + .description {
+  background: yellow url("../images/320.png") no-repeat center/auto;
+  color: green;
+}
+
+.description > span {
+  padding: 10px 15px 5px 25px;
+  display: inline-block;
+  border: 1px solid;
+}
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+#main-title {
+  color: red;
+  padding: auto;
 }
